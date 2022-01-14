@@ -182,3 +182,102 @@ nav img{
     color: #0B1B35;
     letter-spacing: 4px;
 }
+
+/* our team  */
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.member{
+    height: 310px;
+    width: 320px;
+    border: .5px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 18px;
+}
+.member-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.member-info h6{
+    color: #1E0E62;
+    font-size: 22px;
+    margin: 18px;
+}
+.member-info p{
+    color: #15143966;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;}
+
+.fab{
+    color: #15143966;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+/* subscribe */
+.subscribe{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -55px;
+}
+.sub-img img{
+    height: 421px;
+    width: 367px;
+}
+.sub-right{
+    font-size: 18px;
+}
+input[type="email"] {
+    margin: 35px 0;
+    width: 500px;
+    height: 50px;
+    border-radius: 80px;
+    box-shadow: 17px 15px 20px lightgrey;
+    padding: 0 30px;
+    border: none;
+}
+.sub-right a{
+    margin-top: 72px;
+}
+
+/* footer  */
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+.footer-img img{
+    width: 111px;
+    height: 23px;
+    margin-right: 50px;
+}
+.footer-copy{
+    font-size: 16px;
+    color: #1E0E62;
+}
+.footer-link a{
+    margin-right: 15px;
+    color: #1E0E62;
+    font-size: 16px;
+}
